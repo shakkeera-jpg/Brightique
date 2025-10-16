@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("./assets/fonts/ClassicaPro-Bold.ttf") format("ttf"),
+       url("./assets/fonts/ClassicaPro-BoldItalic.ttf") format("ttf"),
+       url("./assets/fonts/ClassicaPro-Demi.ttf") format("ttf"),
+       url("./assets/fonts/ClassicaPro-Italic.ttf") format("ttf"),
+       url("./assets/fonts/ClassicaPro-Light.ttf") format("ttf"),
+       url("./assets/fonts/ClassicaPro-LightItalic.ttf") format("ttf"),
+       url("./assets/fonts/ClassicaPro-Regular.ttf") format("ttf"),
+       url("./assets/fonts/ClassicaPro-DemiItalic.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "MyCustomFont", sans-serif;
+}
